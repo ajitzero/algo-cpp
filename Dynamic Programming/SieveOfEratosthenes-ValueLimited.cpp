@@ -1,7 +1,7 @@
 /**
  * 
  * Title: Sieve Of Eratosthenes [Value limited]
- * Description: Display all primes numbers upto a given value N as a limiter.
+ * Description: Display all primes numbers up to a given value N as a limiter.
  * Author: Ajit Panigrahi
  * GitHub: https://github.com/AjitZero
  * 
@@ -16,11 +16,9 @@ using namespace std;
  * Creates and displays all prime numbers less than or equal to N
  * @param N: Upper bound range limiter
  */
-void SieveOfEratosthenes(int N) {
+void SieveOfEratosthenes(const int N) {
     
-    /**
-     * Creating a boolean array for memoization. The index is the number tested for primality.
-     */
+    // Creating a boolean array for memoization
     bool store[N + 1];
 
     /**
@@ -38,24 +36,19 @@ void SieveOfEratosthenes(int N) {
      */
     for (int i = 2; i * i <= N; ++i) {
 
-        /**
-         * If element is assigned `false` then we have already calculated that it is not prime
-         */
+        // If element is assigned `false` then we have already calculated that it is not prime
         if (store[i]) {
 
-            /**
-             * At this point `store[i]` has a truth value of `true`.
-             * We need to mark each of its multiples as not prime by assigning a truth value of `false` to them.
-             */
+            // At this point `store[i]` has a truth value of `true`
             for (int j = i * 2; j <= N; j += i) {
+
+                // We need to mark each of its multiples as not prime by assigning a truth value of `false` to them
                 store[j] = false;
             }
         }
     }
 
-    /**
-     * Display all indices which store a truth value of `true`
-     */
+    // Output: Display all indices which store a truth value of `true`
     for (int i = 2; i <= N; ++i) {
         if (store[i]) {
             cout << i << " ";
@@ -63,9 +56,7 @@ void SieveOfEratosthenes(int N) {
     }
 }
 
-/**
- * Driver function
- */
+// Driver function
 int main() {
     int limit;
     cin >> limit;
