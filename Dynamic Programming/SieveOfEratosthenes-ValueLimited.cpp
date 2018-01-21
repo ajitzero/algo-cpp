@@ -9,12 +9,13 @@
 
 #include <iostream>
 #include <cstring>
+#include <cassert>
 
 using namespace std;
 
 /**
  * Creates and displays all prime numbers less than or equal to N
- * @param N: Upper bound range limiter
+ * @param N [Upper bound range limiter]
  */
 void SieveOfEratosthenes(const int N) {
     
@@ -60,6 +61,7 @@ void SieveOfEratosthenes(const int N) {
 int main() {
     int limit;
     cin >> limit;
+    assert(("Limit should be at least 2.", limit >= 2));
     SieveOfEratosthenes(limit);
     return 0;
 }

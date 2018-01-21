@@ -17,7 +17,7 @@ const int MAX_DIGIT_LENGTH = 200;
 
 /**
  * Displays the factorial of a given number N
- * @param N: Operand for factorial operation
+ * @param N: [Operand for factorial operation]
  */
 void FactorialOfLargeNumber(const int N) {
 
