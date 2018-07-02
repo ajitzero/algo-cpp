@@ -12,7 +12,7 @@ My collection of C++ implementations of standard efficient algorithms.
   - [Sieve Of Eratosthenes (Value Limited)](Dynamic%20Programming/SieveOfEratosthenes-ValueLimited.cpp)
 - **Greedy Approach:**
   - [Maximum Subsequence Sum](Greedy%20Approach/MaximumSubsequenceSum.cpp)
--  **Mathematics**
+- **Mathematics**
   - [Euclidean algorithm (Recursive & non-recursive approaches)](Mathematics/EuclideanAlgorithm.cpp)
 - **Big Integers:**
   - [Factorial of Large Number](Big%20Integers/FactorialOfLargeNumber.cpp)
