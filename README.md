@@ -1,4 +1,8 @@
 # Algo-CPP
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+
 My collection of C++ implementations of standard efficient algorithms.
 
 ## Current list
@@ -8,9 +12,13 @@ My collection of C++ implementations of standard efficient algorithms.
   - [Sieve Of Eratosthenes (Value Limited)](Dynamic%20Programming/SieveOfEratosthenes-ValueLimited.cpp)
 - **Greedy Approach:**
   - [Maximum Subsequence Sum](Greedy%20Approach/MaximumSubsequenceSum.cpp)
+-  **Mathematics**
+  - [Euclidean algorithm (Recursive & non-recursive approaches)](Mathematics/EuclideanAlgorithm.cpp)
 - **Big Integers:**
   - [Factorial of Large Number](Big%20Integers/FactorialOfLargeNumber.cpp)
 
-## License
+## Meta
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+Ajit Panigrahi – [@AjitZero](https://twitter.com/AjitZero) – Ping me on Twitter for any queries
+
+Distributed under the MIT License. See `LICENSE` for more information.
