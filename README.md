@@ -10,6 +10,7 @@ My collection of C++ implementations of standard efficient algorithms.
 - **Dynamic Programming:**
   - [Kadane's Algorithm (Maximum Contiguous Subsequence Sum)](Dynamic%20Programming/MaximumSubsequenceSum-Contiguous.cpp)
   - [Sieve Of Eratosthenes (Value Limited)](Dynamic%20Programming/SieveOfEratosthenes-ValueLimited.cpp)
+  - [0-1 Knapsack Problem](Dynamic%20Programming/0-1%20Knapsack%20Problem.cpp)
 - **Greedy Approach:**
   - [Maximum Subsequence Sum](Greedy%20Approach/MaximumSubsequenceSum.cpp)
 - **Mathematics**
@@ -19,6 +20,6 @@ My collection of C++ implementations of standard efficient algorithms.
 
 ## Meta
 
-Ajit Panigrahi – [@AjitZero](https://twitter.com/AjitZero) – Ping me on Twitter for any queries
+Ajit Panigrahi – [@AjitZero](https://github.com/AjitZero) – Ping me on [Twitter](https://twitter.com/AjitZero) or [Email me](mailto:ajitzero@gmail.com) for any queries
 
 Distributed under the MIT License. See `LICENSE` for more information.
