@@ -1,9 +1,9 @@
 # Sublime project
 *.sublime*
 
-# Taken from
-# https://github.com/github/gitignore/blob/master/C%2B%2B.gitignore
+# Created by https://www.gitignore.io/api/c++
 
+### C++ ###
 # Prerequisites
 *.d
 
@@ -36,3 +36,6 @@
 *.exe
 *.out
 *.app
+
+
+# End of https://www.gitignore.io/api/c++	
