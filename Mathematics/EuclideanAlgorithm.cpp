@@ -4,6 +4,7 @@
  * Description: Display the greatest common divisor (GCD) of two numbers.
  * Author: Ajit Panigrahi
  * GitHub: https://github.com/AjitZero
+ * Twitter: https://twitter.com/AjitZero 
  * 
  */
 
@@ -63,3 +64,18 @@ int main() {
 	cout << non_recursive_approach(first_number, second_number) << endl;
 	return 0;
 }
+
+/*
+
+Sample Input:
+--------------------
+
+1188 220
+
+Sample Output:
+--------------------
+
+44
+44
+
+ */

@@ -4,6 +4,7 @@
  * Description: Display the maximum sum of any non-empty subsequence of a given list of integers.
  * Author: Ajit Panigrahi
  * GitHub: https://github.com/AjitZero
+ * Twitter: https://twitter.com/AjitZero 
  * 
  */
 
@@ -65,3 +66,18 @@ int main() {
 	cout << MaximumSubsequenceSum(a, noOfElements);
 	return 0;
 }
+
+/*
+
+Sample Input:
+--------------------
+
+7
+20 -17 34 11 -5 20 -5 2
+
+Sample Output:
+--------------------
+
+85
+
+ */

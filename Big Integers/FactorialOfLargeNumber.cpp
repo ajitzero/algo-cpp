@@ -4,11 +4,13 @@
  * Description: Calculate the factorial of a large non-negative number N.
  * Author: Ajit Panigrahi
  * GitHub: https://github.com/AjitZero
+ * Twitter: https://twitter.com/AjitZero 
  * 
  */
 
 #include <iostream>
 #include <vector>
+#include <cassert>
 
 using namespace std;
 
@@ -17,21 +19,12 @@ const int MAX_DIGIT_LENGTH = 200;
 
 /**
  * Displays the factorial of a given number N
- * @param N: [Operand for factorial operation]
+ * 
+ * @param N [Operand for factorial operation]
  */
 void FactorialOfLargeNumber(const int N) {
 
-    // Filter out invalid numbers
-    if (N < 0) {
-        cout << "Factorial of a negative number is undefined." << endl;
-        return;
-    }
-
-    /**
-     * Creates a vector of `MAX_DIGIT_LENGTH` elements, initialized to zero by default.
-     *
-     * Header file required: `vector`
-     */
+    // Creates a vector of `MAX_DIGIT_LENGTH` elements, initialized to zero by default.
     vector<int> product(MAX_DIGIT_LENGTH);
 
     // Initialize default value as 1
@@ -87,6 +80,21 @@ void FactorialOfLargeNumber(const int N) {
 int main() {
     int input;
     cin >> input;
+    assert(("Input should be at least 0.", input >= 0));
     FactorialOfLargeNumber(input);
     return 0;
 }
+
+/*
+
+Sample Input:
+--------------------
+
+30
+
+Sample Output:
+--------------------
+
+265252859812191058636308480000000
+
+ */
