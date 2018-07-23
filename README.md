@@ -1,19 +1,21 @@
 # Algo-CPP
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
+[![Made With C++](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 
-My collection of C++ implementations of standard efficient algorithms used in competitive programming, with inline explanations for different sections/lines of code.
+My collection of C++ implementations of standard efficient algorithms used in competitive programming, with in-line explanations for different sections/lines of code.
 
 > Useful for learning and revising algorithms quickly :rocket:
 
 ## Current list
 
 - **Dynamic Programming:**
-  - :new: [0-1 Knapsack Problem](Dynamic%20Programming/0-1KnapsackProblem.cpp)
+  - [0-1 Knapsack Problem](Dynamic%20Programming/0-1KnapsackProblem.cpp)
   - [Kadane's Algorithm (Maximum Contiguous Subsequence Sum)](Dynamic%20Programming/MaximumSubsequenceSum-Contiguous.cpp)
-  - :new: [Longest Common Subsequence](Dynamic%20Programming/LongestCommonSubsequence.cpp)
+  - [Longest Common Subsequence](Dynamic%20Programming/LongestCommonSubsequence.cpp)
   - [Sieve Of Eratosthenes (Value Limited)](Dynamic%20Programming/SieveOfEratosthenes-ValueLimited.cpp)
+- **Divide and Conquer:**
+  - :new: [Quick Sort](Divide%20and%20Conquer/QuickSort.cpp)
 - **Greedy Approach:**
   - [Maximum Subsequence Sum](Greedy%20Approach/MaximumSubsequenceSum.cpp)
 - **Mathematics:**
@@ -23,17 +25,19 @@ My collection of C++ implementations of standard efficient algorithms used in co
 
 ## TODO
 
-- Add Sample Input and Output for all programs so far.
-- Add Backtracking section
-- Add Divide and Conquer section
-- Implement Cutting a Rod Problem
-- Implement Convex Hull Problem
-- Implement N-Queens Problem
-- Implement Problem to find the rotation count in a rotated sorted array.
-- Implement Problem to solve a Sudoku puzzle
+- [X] ~~Add Sample Input and Output for all programs so far.~~
+- [ ] Add Backtracking section
+- [X] ~~Add Divide and Conquer section~~
+- [X] ~~Implement Quick Sort~~
+- [ ] Implement Merge Sort
+- [ ] Implement Cutting a Rod Problem
+- [ ] Implement Convex Hull Problem
+- [ ] Implement N-Queens Problem
+- [ ] Implement Problem to find the rotation count in a rotated sorted array.
+- [ ] Implement Problem to solve a Sudoku puzzle
 
-## Meta
+## Meta [![GitHub followers](https://img.shields.io/github/followers/AjitZero.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/AjitZero?tab=followers)
 
-Ajit Panigrahi – [@AjitZero](https://github.com/AjitZero) – Ping me on [Twitter](https://twitter.com/AjitZero) or [Email me](mailto:ajitzero@gmail.com) for any queries or to request an algorithm implementation.
+Ajit Panigrahi – [@AjitZero](https://github.com/AjitZero) – Ping me on [Twitter](https://twitter.com/AjitZero) or [Email me](mailto:ajitzero@gmail.com) to request an algorithm implementation or for any queries.
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the [MIT License](https://opensource.org/licenses/MIT). See [`LICENSE`](https://github.com/AjitZero/Algo-CPP/blob/master/LICENSE) for more information.
