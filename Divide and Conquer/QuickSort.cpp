@@ -10,8 +10,19 @@
 
 #include <iostream>
 #include <vector>
-#include <algorithm>
 using namespace std;
+
+/**
+ * Utility function for Swapping two numbers
+ * 
+ * @param first  [First number]
+ * @param second [Second number]
+ */
+void swap(int &first, int &second) {
+	int temp = first;
+	first = second;
+	second = temp;
+}
 
 /**
  * Partitions the list in the given range with a selected element as pivot and places all elements smaller than the pivot to its left and the rest to the right of pivot
@@ -36,13 +47,9 @@ int partition (vector<int>& v, int low, int high) {
 		if (v[j] <= pivot) {
 
 			// Increment lower value to switch with pivot
-			i++;
+			++i;
 
-			/**
-			 * Switch with lower element
-			 *
-			 * Header file required: `algorithm`
-			 */
+			// Switch with lower element
 			swap(v[i], v[j]);
 		}
 	}
