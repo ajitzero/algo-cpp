@@ -23,19 +23,6 @@ My collection of C++ implementations of standard efficient algorithms used in co
 - **Big Integers:**
   - [Factorial of Large Number](Big%20Integers/FactorialOfLargeNumber.cpp)
 
-## TODO
-
-- [X] ~~Add Sample Input and Output for all programs so far.~~
-- [ ] Add Backtracking section
-- [X] ~~Add Divide and Conquer section~~
-- [X] ~~Implement Quick Sort~~
-- [ ] Implement Merge Sort
-- [ ] Implement Cutting a Rod Problem
-- [ ] Implement Convex Hull Problem
-- [ ] Implement N-Queens Problem
-- [ ] Implement Problem to find the rotation count in a rotated sorted array.
-- [ ] Implement Problem to solve a Sudoku puzzle
-
 ## Meta [![GitHub followers](https://img.shields.io/github/followers/AjitZero.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/AjitZero?tab=followers)
 
 Ajit Panigrahi – [@AjitZero](https://github.com/AjitZero) – Ping me on [Twitter](https://twitter.com/AjitZero) or [Email me](mailto:ajitzero@gmail.com) to request an algorithm implementation or for any queries.
