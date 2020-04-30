@@ -18,7 +18,7 @@ using namespace std;
  * 
  * @param nunms [list of integers]
  */
-vector<int> productExceptSelf(vector<int>& nums) {
+void productExceptSelf(vector<int>& nums) {
     int N = nums.size();
     vector<int> results(N, 1);
     for (int i = 0; i < N; ++i) {
