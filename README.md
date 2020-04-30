@@ -14,8 +14,8 @@ My collection of C++ implementations of standard efficient algorithms used in co
   - [Kadane's Algorithm (Maximum Contiguous Subsequence Sum)](Dynamic%20Programming/MaximumSubsequenceSum-Contiguous.cpp)
   - [Longest Common Subsequence](Dynamic%20Programming/LongestCommonSubsequence.cpp)
   - [Sieve Of Eratosthenes (Value Limited)](Dynamic%20Programming/SieveOfEratosthenes-ValueLimited.cpp)
-  - [Product of Array Except Self](Dynamic%20Programming/ProductExceptSelf.cpp) | [LeetCode](https://leetcode.com/problems/product-of-array-except-self/)
-  - [Kth Largest Element in an Array](Dynamic%20Programming/KthLargestElement.cpp) | [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+  - [Product of Array Except Self](Dynamic%20Programming/ProductExceptSelf.cpp) - [LeetCode](https://leetcode.com/problems/product-of-array-except-self/)
+  - [Kth Largest Element in an Array](Dynamic%20Programming/KthLargestElement.cpp) - [LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - **Divide and Conquer:**
   - [Quick Sort](Divide%20and%20Conquer/QuickSort.cpp)
 - **Greedy Approach:**
