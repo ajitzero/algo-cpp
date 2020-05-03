@@ -16,7 +16,7 @@ using namespace std;
 /**
  * Calculates the product of all elements except the one in position
  * 
- * @param nunms [list of integers]
+ * @param nums [list of integers]
  */
 void productExceptSelf(vector<int>& nums) {
     int N = nums.size();
