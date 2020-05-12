@@ -5,7 +5,9 @@
 
 My collection of C++ implementations of standard efficient algorithms used in competitive programming, with in-line explanations for different sections/lines of code.
 
-> Useful for learning and revising algorithms quickly :rocket:
+> Useful for learning and revising algorithms quickly 🚀
+
+**Note:** This is very, very infrequently updated.
 
 ## Current list
 
